@@ -72,5 +72,11 @@ def logoutSession():
     session.pop('user',None)
     return redirect('/login')
 
+#View Config
+##Index Routes
+app.add_url_rule('/', 'Index',indexRouter.Index)
+##Player Routes
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=8080)
