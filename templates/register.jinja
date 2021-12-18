@@ -1,9 +1,14 @@
 {%extends 'base.jinja' %}
 {%block body%}
+<br><br><br><br>
+<div class="text-center py-2 px-3 rounded bg-slate-600" style="width:50%">
+<h1 class="py-2 px-3 text-6xl text-gray-100">Register a Account for <span>JarOfHymn</span></h1>
 <form action="/register" method="POST">
-<input type="email" name="email" id="email"/>
-<input type="password" name="password" id="password"/>
-<input type="password" name="confirm_pass" id="confirm_pass"/>
-<button type="submit">Register</button>
+<input class="py-3 px-2 rounded text-gray text-center bg-gray-700" placeholder="Email" type="email" name="email" id="email"/><br>
+<input class="py-3 px-2 rounded text-gray text-center bg-gray-700" type="password" placeholder="Password" name="password" id="password"/><br>
+<input class="py-3 px-2 rounded text-gray text-center bg-gray-700" type="password" placeholder="Confirm Password" name="confirm_pass" id="confirm_pass"/><br>
+<button class="bg-slate-800 hover:bg-slate-700 text-gray py-3 px-2 rounded text-gray-100" type="submit" >Register</button>
 </form>
+Already Have an Account? <a href="login">Login</a>
+</div>
 {%endblock%}

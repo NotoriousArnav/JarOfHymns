@@ -1,8 +1,18 @@
 {%extends 'base.jinja'%}
 {%block body%}
-<form action="/login" method="POST">
-<input type="email" name="email" id="email"/>
-<input type="password" name="password"/>
-<button type="submit">Login</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="bg-slate-700 text-center rounded text-center" style="left:50%;width:50%;">
+<h1 class="py-10 px-2 text-gray-100 text-6xl">Log into your <span>JarOfHymn Account</span></h1>
+<form class="text-center align-center flex px-2 py-2 bg-slate-500" style="align-items:center;width:100%" action="/login" method="POST">
+<input class="text-center px-2 py-3 rounded bg-slate-300 hover:bg-slate-200 text-gray-700" style="width:44%" placeholder="email" type="email" name="email" id="email"/>
+&nbsp;&nbsp;&nbsp;
+<input class="text-center px-2 py-3 rounded bg-slate-300 hover:bg-slate-200 text-gray-700" id="password" style="width:44%" placeholder="password" type="password" name="password"/>&nbsp;&nbsp;&nbsp;
+<button type="submit" style="width:10%" class="px-2 py-3 rounded bg-slate-900 hover:bg-slate-800 text-gray-300">Login</button>
 </form>
+Don't Have a Account? <a href="/register">Register here</a>
+</div>
 {%endblock%}
