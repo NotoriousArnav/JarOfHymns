@@ -1,0 +1,9 @@
+  {
+    "apiKey": "AIzaSyA5Rlp1Zrxg89tWR4bnr0-wOw2fVdfE5v4",
+    "authDomain": "spoticloud-bbb8a.firebaseapp.com",
+    "projectId": "spoticloud-bbb8a",
+    "storageBucket": "spoticloud-bbb8a.appspot.com",
+    "messagingSenderId": "712471962310",
+	"databaseURL":"https://spoticloud-bbb8a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "appId": "0:712471962310:web:d0c33f6d2597d8e4f5edc7"
+  }
