@@ -1,5 +1,9 @@
 {%extends 'base.jinja' %}
 {%block body%}
+{%extends 'navbar.jinja'%}
+{%block nvbar%}
+{{super()}}
+{%endblock%}
 <div class="flex bg-slate-400 text-gray-200">
 Hello
 </div>
